@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tiempo</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container" id="container">
+		<div class="inputTemp" id="inputTemp">
+			<form class="buscador" id="buscador">
+				<input type="text" class="buscador_input" id="buscador_input" placeholder="Ingrese su localizacion..." autocomplete="off">
+				<button type="submit" class="boton-buscador" id="boton-buscador"></button>
+			</form>
+		</div>
+		<div class="inputTemp-number" id="inputTemp-number">
+			<div class="inputTemp__celsius" id="inputTemp__celsius">5</div>
+			<div class="inputTemp__simbolo" id="inputTemp__simbolo">°C</div>
+		</div>
+		<div  id="iconoClima"></div>
+		<div class="inputTemp__descripcion" id="inputTemp__descripcion">nublado</div>
+
+
+
+	
+
+		<div class="locacion" id="locacion">
+			<div class="locacion__ciudad" id="locacion__ciudad">Londres</div>
+			<div class="locacion__dia" id="locacion__dia">17/09</div>
+		</div>
+
+		<div class="temperatura" id="temperatura">
+			<div class="temperatura__min" id="temperatura__min"><small>Min</small>10<span>°C</span></div>
+			<div class="temparatura__humedad" id="temparatura__humedad">%</div>
+			<div class="temperatura__max" id="temperatura__max"><small>Max</small>70<span>°C</span></div>
+		</div>
+
+	</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

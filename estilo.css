@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: black;
+	color: #fff;
+	cursor: default;
+
+}
+
+
+.container{
+	width: 35.5rem;
+	height: 32.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	border: 4px solid #78DEC7;
+	border-radius: 1rem;
+	box-shadow: 4px 2px 15px #FB7AFC;
+}
+
+.container.dia{
+	background-image: url(https://images.unsplash.com/photo-1527786356703-4b100091cd2c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+	background-size: cover;
+	color: #000;
+}
+
+.container.dia.lluvia{
+	background-image: url(https://images.unsplash.com/photo-1527786356703-4b100091cd2c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+	background-size: cover;
+	color: #fff;
+}
+.container.dia .inputTemp-number{
+	color: #000;
+}
+
+
+
+.container.noche{
+	background-image: url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+}
+.container.atardecer{
+	background-image: url(https://image.freepik.com/vector-gratis/atardecer-tropical-estilo-retro-anos-80-silueta-palmera-fondo-cielo-degradado-diseno-retro-clasico-80-superficie-cibernetica-paisaje-digital_226262-109.jpg);
+	background-size: cover;
+}
+.container.dia.lluvia{
+	background-image: url(https://escapetrailer.com/wp-content/uploads/2020/07/Escape-Rainy-Day-scaled.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.container.atardecer.lluvia{
+	background-image: url(https://images.unsplash.com/photo-1532349150739-cb439f9a34a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-size: cover;
+}
+.container.noche.lluvia{
+	background-image: url(https://images.unsplash.com/photo-1617869763329-8e8160d32adb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.inputTemp{
+	display: flex;
+	margin:40px auto;
+	justify-content: center;
+	width: 80%;
+	/*border: 2px solid red;*/
+}
+.buscador{
+	display: flex;
+}
+
+.buscador_input{
+	width: 250px;
+	padding: 0.5rem;
+	border-radius: 30px;
+	border: none;
+	cursor: auto;
+}
+.buscador_input:focus{
+	border: 2px solid#A239EA;
+	outline: none;
+	background: ;
+	box-shadow: 0px 3px 10px #A239EA;
+}
+
+.inputTemp-number{
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 40px;
+	color: #fff;
+	cursor: default;
+}
+
+
+
+.inputTemp__descripcion{
+	font-size: 35px;
+}
+
+
+
+.locacion{
+	display: flex;
+	align-items: flex-end;
+	width: 100%;
+	font-size: 20px;
+	margin: 10px;
+	font-weight: bolder;
+
+}
+.locacion__dia{
+	margin: -10px;
+	margin-left: 10px;
+}
+.locacion__ciudad{
+	padding: 5px;
+}
+
+.temperatura{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	font-size: 23px;
+	border-top: 4px double grey;
+	height: 40px ;
+	align-items: flex-end;
+	padding: 0px 10px;
+	padding-bottom: 5px ;
+}
+
+.temperatura__min small{
+	color: blueviolet;
+	font-weight: bold;
+}
+.temperatura__max small{
+	color:  indianred;
+}
+
+.boton-buscador{
+	visibility: hidden;
+}
